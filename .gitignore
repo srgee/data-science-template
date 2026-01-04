@@ -1,0 +1,45 @@
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pip-tools/
+
+# --- DATA SCIENCE ---
+# Ignore data files (keep folder structure)
+data/external/*
+data/interim/*
+data/processed/*
+data/raw/*
+!data/**/.gitkeep
+
+# Modelos y archivos pesados
+*.ipynb_checkpoints
+*.pkl
+*.joblib
+*.h5
+*.model
+*.onnx
+.dvc/
+
+# --- VS CODE ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# --- SYSTEM & LOGS ---
+.DS_Store
+Thumbs.db
+*.log
+.env
+.ipynb_checkpoints/
